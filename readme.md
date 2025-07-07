@@ -5,7 +5,7 @@ Easily select video/audio quality, preview before downloading, and manage your f
 
 ---
 
-![screenshot](assets/screenshot.png) <!-- Replace with your screenshot path or remove if not available -->
+![screenshot](![Demo](image.png)) <!-- Replace with your screenshot path or remove if not available -->
 
 ## 🚀 Features
 
@@ -93,4 +93,4 @@ you use.
 - LinkedIn: [Rajkumar Khatua](https://www.linkedin.com/in/rajkumarkhatua/)
 
 ### Thanks for using this app! If you find it useful, please give it a star on GitHub ⭐
-- [GitHub Repository](
+- [GitHub Repository](https://github.com/Rajkumar-Khatua/Video-Downloader)
