@@ -1,3 +1,4 @@
 streamlit
 yt-dlp
 matplotlib
+ffmpeg
