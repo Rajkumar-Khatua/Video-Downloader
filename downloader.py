@@ -68,6 +68,21 @@ st.markdown("""
     </div>
 </div>
 """, unsafe_allow_html=True)
+import subprocess
+import streamlit as st
+
+def check_ffmpeg():
+    try:
+        result = subprocess.run(['ffmpeg', '-version'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        if result.returncode == 0:
+            st.sidebar.success("✅ ffmpeg is installed!")
+            st.sidebar.code(result.stdout.split('\n')[0])  # Shows the version
+        else:
+            st.sidebar.error("❌ ffmpeg is NOT installed.")
+    except Exception as e:
+        st.sidebar.error(f"❌ Error checking ffmpeg: {e}")
+
+check_ffmpeg()
 
 # Main Input
 st.markdown("### 🔗 Paste your video/audio link below:")
