@@ -5,7 +5,7 @@ Easily select video/audio quality, preview before downloading, and manage your f
 
 ---
 
-![screenshot](![Demo](/image.png)) <!-- Replace with your screenshot path or remove if not available -->
+![screenshot](/image.png) <!-- Replace with your screenshot path or remove if not available -->
 
 ## 🚀 Features
 
